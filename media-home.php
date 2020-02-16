@@ -63,7 +63,7 @@
  				<p>Test 789</p>
  				</p> -->
 
- 			<h1>Movement Screen Capturing</h1>
+ 			<!-- <h1>Movement Screen Capturing</h1>
  			<h2><label for="movement">Please Select Movement</label></h2>
  				<p>
  				<select id="movement" onchange="mvmtSelectCheck(this);">
@@ -73,7 +73,7 @@
 				</select>
 				</p>	
 
-<div id="mvmtDivCheck" style="display:none;"> Pull selected </div>
+<div id="mvmtDivCheck" style="display:none;"> Pull selected </div> -->
 
  </body>
 
