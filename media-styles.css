@@ -15,10 +15,11 @@ h2 {
 p {
 	font-family: "Courier New";
 	font-weight: lighter;
+	text-align: center;
 }
 
 div {
+	font-family: "Courier New";
+	font-weight: lighter;
 	text-align: center;
-	vertical-align: middle;
-	float: left;
 }
