@@ -17,3 +17,8 @@ p {
 	font-weight: lighter;
 }
 
+div {
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
