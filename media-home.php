@@ -11,11 +11,9 @@
 
  	<h1>Single Image Capturing</h1>
  		<p><input type="file" accept="image/*" capture></p>
- 		<p>Test 123</p>
 
  	<h1>Single Video Capture</h1>
  		<p><input type="file" accept="video/*" capture></p>
- 		<p>Test 456</p>
 
  	<!-- <h1>Movement Screen Capturing</h1>
  		<h2><label for="movement">SELECT MOVEMENT</label></h2>
@@ -67,22 +65,19 @@
  			<h2><label for="movement">Please Select Movement</label></h2>
  				<p>
  				<select id="movement" onchange="mvmtSelectCheck(this);">
- 					<option value="1" selected>- Please Select a Movement -</option>
-					<option value="2">Squat</option>
-					<option value="3">Lunge</option>
-					<option value="4">Push</option>
-					<option value="5">Bend</option>
-					<option id="mvmtOption" value="0">Pull</option>
-					<option value="6">Rotation</option>
+ 					<option value="select" selected>- Please Select a Movement -</option>
+					<option id="squat" value="squat">Squat</option>
+					<option id="lunge" value="lunge">Lunge</option>
+					<option id="push" value="push">Push</option>
+					<option id="bend" value="bend">Bend</option>
+					<option id="pull" id="pull" value="6">Pull</option>
+					<option id="rotation" value="rotation">Rotation</option>
 
 				</select>
 				</p>	
 
-<div id="mvmtDivCheck" style="display:none;"> Pull Movements
-<p><input type="file" id="videoFile" capture="environment" accept="video/*">Pull Captures, Upload Seperate Front and Side Views</p>
-
-
- 		<p>Test 567</p> </div>
+<div id="mvmtDivCheck" style="display:none;"> Squat Movements
+<p><input type="file" id="videoFile" capture="environment" accept="video/*">Squat Captures; Upload Seperate Front and Side Views</p> </div>
 
  </body>
 

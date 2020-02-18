@@ -2,7 +2,7 @@ function mvmtSelectCheck(nameSelect)
 {
     console.log(nameSelect);
     if(nameSelect){
-        mvmtOptionValue = document.getElementById("mvmtOption").value;
+        mvmtOptionValue = document.getElementById("squat").value;
         if(mvmtOptionValue == nameSelect.value){
             document.getElementById("mvmtDivCheck").style.display = "block";
         }
