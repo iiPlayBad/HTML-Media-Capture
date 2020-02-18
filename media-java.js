@@ -14,4 +14,3 @@ function mvmtSelectCheck(nameSelect)
         document.getElementById("mvmtDivCheck").style.display = "none";
     }
 }
-

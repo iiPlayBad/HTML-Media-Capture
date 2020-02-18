@@ -63,17 +63,26 @@
  				<p>Test 789</p>
  				</p> -->
 
- 			<!-- <h1>Movement Screen Capturing</h1>
+ 			<h1>Movement Screen Capturing</h1>
  			<h2><label for="movement">Please Select Movement</label></h2>
  				<p>
  				<select id="movement" onchange="mvmtSelectCheck(this);">
-					<option value="1">Squat</option>
-					<option value="2">Lunge</option>
+ 					<option value="1" selected>- Please Select a Movement -</option>
+					<option value="2">Squat</option>
+					<option value="3">Lunge</option>
+					<option value="4">Push</option>
+					<option value="5">Bend</option>
 					<option id="mvmtOption" value="0">Pull</option>
+					<option value="6">Rotation</option>
+
 				</select>
 				</p>	
 
-<div id="mvmtDivCheck" style="display:none;"> Pull selected </div> -->
+<div id="mvmtDivCheck" style="display:none;"> Pull Movements
+<p><input type="file" id="videoFile" capture="environment" accept="video/*">Pull Captures, Upload Seperate Front and Side Views</p>
+
+
+ 		<p>Test 567</p> </div>
 
  </body>
 
